@@ -1,0 +1,12 @@
+{
+    "canisters": {
+        "dapp_mentors": {
+            "type": "custom",
+            "main": "src/index.ts",
+            "candid": "src/index.did",
+            "build": "npx azle dapp_mentors",
+            "wasm": ".azle/dapp_mentors/dapp_mentors.wasm",
+            "gzip": true
+        }
+    }
+}

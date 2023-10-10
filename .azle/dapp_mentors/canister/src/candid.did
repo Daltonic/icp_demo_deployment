@@ -1,0 +1,6 @@
+service: () -> {
+    getApproval: () -> (bool) query;
+    getProposal: () -> (text) query;
+    setApproval: (bool) -> ();
+    setProposal: (text) -> ();
+}
